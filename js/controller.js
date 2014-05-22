@@ -72,7 +72,7 @@ if (typeof chrome !== 'undefined' && chrome.app && chrome.app.runtime) {
 
 var myMarkets = new Array("ALF/BTC","AMC/BTC","ANC/BTC","ARG/BTC","BTB/BTC","BTE/BTC",
   "BTG/BTC","BQC/BTC","CSC/BTC","CAP/BTC","COL/LTC","CLR/BTC","CMC/BTC","CRC/BTC",
-  "CPR/LTC","ELC/BTC","EMD/BTC","FST/BTC","FRC/BTC","GLX/BTC",
+  "CPR/LTC","DOGE/BTC","DRK/BTC","ELC/BTC","EMD/BTC","FST/BTC","FRC/BTC","GLX/BTC",
   "GLC/BTC","GME/LTC","GLD/BTC","GDC/BTC","IFC/LTC","HBN/BTC","LTC/BTC","MEC/BTC","MNC/BTC",
   "FTC/BTC","NMC/BTC","PPC/BTC","PXC/BTC","PYC/BTC","QRK/BTC","SBC/BTC","SPT/BTC","SRC/BTC",
   "TAG/BTC","TRC/BTC","WDC/BTC","XPM/BTC","YAC/BTC","ZET/BTC");
@@ -652,7 +652,7 @@ function loadOtherBanners(myScrollContainer){
     createGenericBanner("BTC/USD","(Coinbase)", "" ,"#FFFFFF","","https://www.coinbase.com", myScrollContainer );
        
 
-    createGenericBanner("BTC/USD","(MtGox)", "" ,"#FFFFFF","","https://www.mtgox.com", myScrollContainer );
+   // createGenericBanner("BTC/USD","(MtGox)", "" ,"#FFFFFF","","https://www.mtgox.com", myScrollContainer );
       
 
        console.log("created bitcoin banners");
