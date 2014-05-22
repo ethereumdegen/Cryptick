@@ -1,13 +1,13 @@
 {
  "name": "Cryptick",
-  "description": "Simple cryptocurrency price ticker.",
-  "version": "0.30",
+  "description": "Open source cryptocurrency price ticker. https://github.com/admazzola/Cryptick",
+  "version": "0.31",
   "manifest_version": 2,
   "minimum_chrome_version": "23",
-  "app": {"background": {"scripts": ["controller.js","jquery.min.js","jquery.simplyscroll.js"]}},
+  "app": {"background": {"scripts": ["js/controller.js","js/jquery.min.js","js/jquery.simplyscroll.js"]}},
   "icons": {
-    "32": "icon32.png",
-    "128": "icon128.png"
+    "32": "img/icon32.png",
+    "128": "img/icon128.png"
   },
 
   "permissions": ["alarms","storage",

@@ -94,6 +94,15 @@
     }
 
 
+    .headeritem{
+      padding-left: 10px;
+
+    }
+
+    .headeritem:hover{
+      cursor:pointer
+    }
+
 ::-webkit-scrollbar {
   display: none;
 }

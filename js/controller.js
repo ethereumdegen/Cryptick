@@ -139,6 +139,13 @@ chrome.storage.sync.get('storedDisabledMarkets', function(data) {
 }
 
 function registerListeners(){
+ console.log("registering listeners");
+
+var a =  myContentWindow.document.getElementById("viewSource");
+a.onclick = function() {
+window.open("https://github.com/admazzola/Cryptick");
+}
+
 
 var button = myContentWindow.document.getElementById("toggleOptionsButton");
 
@@ -416,14 +423,14 @@ function shortenQuantity(rawamount){
 
               //if(parseFloat(misc.innerHTML.slice(0, - 1) ) > 0){
               if((misc.innerHTML).substring(0,1) == "+"){
-                 icon.setAttribute('src', 'uparrow.png');
+                 icon.setAttribute('src', 'img/uparrow.png');
                  if(priceColor == "#FFFFFF"){
                  foregroundColor="#229922";
                  }
               }
             //if(parseFloat(misc.innerHTML.slice(0, - 1)  ) < 0){
              if((misc.innerHTML).substring(0,1) == "-"){
-                icon.setAttribute('src', 'downarrow.png');
+                icon.setAttribute('src', 'img/downarrow.png');
                  if(priceColor == "#FFFFFF"){
                 foregroundColor="#992222";
                  }
