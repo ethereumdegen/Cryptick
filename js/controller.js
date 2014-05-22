@@ -1,15 +1,5 @@
-/**
- * Copyright (c) 2012 The Chromium Authors. All rights reserved.
- * Use of this source code is governed by a BSD-style license that can be
- * found in the LICENSE file.
- **/
 
 
-// Checking for "chrome.app.runtime" availability allows this Chrome app code to
-// be tested in a regular web page (like tests/manual.html). Checking for
-// "chrome" and "chrome.app" availability further allows this code to be tested
-// in non-Chrome browsers, which is useful for example to test touch support
-// with a non-Chrome touch device.
 if (typeof chrome !== 'undefined' && chrome.app && chrome.app.runtime) {
  
  var myContentWindow;
