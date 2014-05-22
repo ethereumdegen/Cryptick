@@ -141,9 +141,13 @@ chrome.storage.sync.get('storedDisabledMarkets', function(data) {
 function registerListeners(){
  console.log("registering listeners");
 
-var a =  myContentWindow.document.getElementById("viewSource");
-a.onclick = function() {
+
+myContentWindow.document.getElementById("viewSource").onclick = function() {
 window.open("https://github.com/admazzola/Cryptick");
+}
+
+myContentWindow.document.getElementById("donate").onclick = function() {
+window.open("img/donate.png");
 }
 
 
