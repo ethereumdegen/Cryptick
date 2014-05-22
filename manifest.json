@@ -1,0 +1,17 @@
+{
+ "name": "Cryptick",
+  "description": "Simple cryptocurrency price ticker.",
+  "version": "0.30",
+  "manifest_version": 2,
+  "minimum_chrome_version": "23",
+  "app": {"background": {"scripts": ["controller.js","jquery.min.js","jquery.simplyscroll.js"]}},
+  "icons": {
+    "32": "icon32.png",
+    "128": "icon128.png"
+  },
+
+  "permissions": ["alarms","storage",
+  "http://pubapi.cryptsy.com/api.php?method=marketdatav2",
+  "https://coinbase.com/api/v1/currencies/exchange_rates"]
+
+}

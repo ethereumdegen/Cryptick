@@ -1,0 +1,140 @@
+/* Container DIV - automatically generated */
+.simply-scroll-container { 
+	position: relative;
+}
+
+/* Clip DIV - automatically generated */
+.simply-scroll-clip { 
+	position: relative;
+	overflow: hidden;
+}
+
+/* UL/OL/DIV - the element that simplyScroll is inited on
+Class name automatically added to element */
+.simply-scroll-list { 
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+	
+.simply-scroll-list li {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+	
+.simply-scroll-list li img {
+	border: none;
+	display: block;
+}
+
+/* Custom class modifications - adds to / overrides above
+
+.simply-scroll is default base class */
+
+/* Container DIV */
+.simply-scroll { 
+	width: 100%;
+	height: 39px;
+	margin-bottom: 1em;
+}
+
+/* Clip DIV */
+.simply-scroll .simply-scroll-clip {
+	
+	height: 39px;
+}
+	
+
+	ul{
+
+		list-style-type:none;
+
+
+	}
+
+
+/* Explicitly set height/width of each list item */	
+.simply-scroll .simply-scroll-list li {
+	float: left; /* Horizontal scroll only */
+	width: 130px;
+	height: 35px;
+}
+
+.contain{
+	margin-left:4px;
+	pointer-events : none;
+}
+
+
+.tophalf{
+height:20px;
+pointer-events : none;
+}
+
+.namelabel{
+
+	float: left;
+	max-width:80px;
+	font-weight:bold;
+	pointer-events : none;
+}
+
+.lastpricelabel{
+	float: left;
+	max-width:90px;
+	pointer-events : none;
+}
+
+
+.volumelabel{
+
+	float: right;
+	margin-right:3px;
+pointer-events : none;
+}
+
+.icon{
+	float: left;
+	margin-left:-3px;
+	margin-top:-5px;
+}
+
+.fullnamelabel{
+
+	float: right;
+	margin-right:3px;
+	font-size:80%;
+	pointer-events : none;
+
+}
+
+.custom { /* Applied to container DIV */
+	width: 576px;
+	height: 210px;
+	background-color: #FFF;
+	margin-bottom: 1em;
+}
+
+.custom .simply-scroll-clip { /* Applied to clip DIV */
+	width: 576px;
+	height: 210px;
+}
+
+
+.tickercontainer
+//width of the original container in which the ticker appears
+.tickercontainer .mask
+//can be used to achieve padding within the container
+ul.newsticker {
+    //important to enable css3 transitions properly 
+    -webkit-transition: all 0s linear;
+    -moz-transition: all 0s linear;
+    -o-transition: all 0s linear;
+    transition: all 0s linear;
+    list-style:none;
+    margin:0;
+}
+

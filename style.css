@@ -1,0 +1,99 @@
+
+
+      body {
+        background-color:#000000;
+
+      }
+
+      a{
+        color:#333333;
+        text-decoration: none;
+      }
+
+      a:hover{
+        color:#78cff5;
+      }
+
+
+      #main {
+        background-color:#FFFFFF;
+
+      }
+
+      .ban {
+        margin: 5px;
+        margin-top:0px;
+        border: 2px solid black;
+        float:left;
+        width: 115px;
+        height: 35px;
+        cursor  : pointer;
+      }
+
+      .ban:hover {
+
+          background-color:#000000;
+
+      }
+
+
+    #banner
+    {
+      font-weight:bold;
+      height:20px;
+    }
+
+     #title
+    {
+     float:left;
+     margin-left:5px;
+     height:20px;
+     font-size:110%;
+    }
+
+     #about
+    {
+      float:right;
+        margin-right:10px;
+        height:20px;
+    }
+
+    #bannerContainer
+    {
+      width:100%;
+      overflow:hidden;
+    }
+
+    #toggleOptionsButton
+    {
+      margin-left:10px;
+    }
+
+    #optionsContainer{
+       width:100%;
+      overflow-x: scroll;
+    }
+
+    .hideBannerOption
+    {
+      padding:3px;
+      float:left;
+
+      height:16px;
+      width:60px;
+    }
+
+      .hideBannerOptionDisabled
+    {
+      padding:3px;
+      float:left;
+      color:#AAAAAA;
+      background-color:#444444;
+      height:16px;
+      width:60px;
+    }
+
+
+::-webkit-scrollbar {
+  display: none;
+}
